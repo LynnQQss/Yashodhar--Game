@@ -1,0 +1,847 @@
+[
+  {
+    "id": "chapter-1",
+    "order": 1,
+    "title": "自觉大限至",
+    "subtitle": "暮色降临，长老尼安静地作出最后的决定",
+    "location": "王舍城 · 比丘尼精舍",
+    "backgroundImage": "/images/rajagaha-bg.png",
+    "backgroundPosition": "center center",
+    "portrait": "/images/yasodhara-portrait.png",
+    "portraitPosition": "68% center",
+    "fallbackTheme": "rajagaha",
+    "scenes": [
+      {
+        "id": "c1-dusk",
+        "type": "narration",
+        "title": "暮色中的王舍城",
+        "text": "一时，在可爱富足的王舍城中，人中之导师（佛陀）正居住在一处优良的山岩处。",
+        "pali": "Ekasmiṁ samaye ramme, iddhe rājagahe pure; Pabbhāramhi varekamhi, vasante naranāyake.",
+        "backgroundImage": "/images/rajagaha-bg.png",
+        "nextScene": "c1-hall"
+      },
+      {
+        "id": "c1-hall",
+        "type": "narration",
+        "title": "静坐",
+        "text": "在那座美好的城市里，在一所优美的比丘尼精舍中，居住在那儿的耶输陀罗比丘尼心中生起了这样的思惟。",
+        "pali": "Vasantiyā tamhi nagare, ramme bhikkhunupassaye; Yasodharābhikkhuniyā, evaṁ āsi vitakkitaṁ.",
+        "backgroundImage": "/images/nunnery-bg.png",
+        "nextScene": "c1-reflection"
+      },
+      {
+        "id": "c1-reflection",
+        "type": "dialogue",
+        "speaker": "耶输陀罗长老尼",
+        "text": "父王、姨母，以及那些德高望重的长老们，都已先后入灭。趁着世尊仍住世间，我应当在今夜到来之前，亲往佛前告别。",
+        "pali": "“Suddhodano mahārājā, gotamī ca pajāpatī; Abhiññātā mahātherā, theriyo ca mahiddhikā. Santiṁ gatāva āsuṁ te, dīpaccīva nirāsavā; Lokanāthe dharanteva, ahampi ca sivaṁ padaṁ.",
+        "portrait": "/images/yasodhara-portrait.png",
+        "portraitPosition": "68% center",
+        "backgroundImage": "/images/nunnery-bg.png",
+        "nextScene": "c1-quiz-ayu"
+      },
+      {
+        "id": "c1-quiz-ayu",
+        "type": "quiz",
+        "title": "语言小径 · 词义",
+        "pali": "āyu",
+        "translation": "语境：她看见自己的寿行将尽。",
+        "backgroundImage": "/images/nunnery-bg.png",
+        "quiz": {
+          "id": "quiz-ayu",
+          "kind": "choice",
+          "question": "āyu 在这里最接近什么意思？",
+          "options": [
+            { "id": "lifespan", "text": "寿命" },
+            { "id": "sunlight", "text": "日光" },
+            { "id": "happiness", "text": "快乐" },
+            { "id": "doubt", "text": "疑惑" }
+          ],
+          "correctAnswerId": "lifespan",
+          "hint": "这个词和生命的持续时间有关。",
+          "correctFeedback": "正确。āyu 表示寿命、生命长度。",
+          "wrongFeedback": "再想想，这个词出现在她“看见自己的寿行将尽”的语境中。"
+        },
+        "nextScene": "c1-quiz-gamissami"
+      },
+      {
+        "id": "c1-quiz-gamissami",
+        "type": "quiz",
+        "title": "语言小径 · 句意",
+        "pali": "Gamissāmī ti cintetvā",
+        "translation": "gamissāmi：我将去；cintetvā：思量之后。",
+        "backgroundImage": "/images/nunnery-bg.png",
+        "quiz": {
+          "id": "quiz-gamissami",
+          "kind": "choice",
+          "question": "这句话在当前剧情中表达什么？",
+          "options": [
+            { "id": "return-palace", "text": "她决定返回王宫" },
+            { "id": "find-food", "text": "她决定去找食物" },
+            { "id": "enter-nibbana", "text": "她决定离开，走向涅槃" },
+            { "id": "travel-abroad", "text": "她决定去外国游历" }
+          ],
+          "correctAnswerId": "enter-nibbana",
+          "hint": "gamissāmi 是“我将去”的意思。",
+          "correctFeedback": "正确。这里不是普通出行，而是她意识到自己即将入灭。",
+          "wrongFeedback": "不完全对。注意这句话前后都在讨论寿命将尽。"
+        },
+        "nextScene": "c1-reward"
+      },
+      {
+        "id": "c1-reward",
+        "type": "reward",
+        "title": "一念清明",
+        "text": "你理解了耶输陀罗面对最后时刻的平静与决意。",
+        "lotusPetalsReward": 1,
+        "backgroundImage": "/images/nunnery-bg.png",
+        "rewardImage": "/images/petals/petal-pink.png",
+        "nextScene": null
+      }
+    ]
+  },
+  {
+    "id": "chapter-2",
+    "order": 2,
+    "title": "往佛前告别",
+    "subtitle": "衣钵在手，她走上最后一次面见世尊的山路",
+    "location": "精舍山道 · 佛陀住处",
+    "backgroundImage": "/images/yasodhara-departure-bg.png",
+    "backgroundPosition": "center center",
+    "portrait": "/images/yasodhara-portrait.png",
+    "portraitPosition": "68% center",
+    "fallbackTheme": "nunnery",
+    "scenes": [
+      {
+        "id": "c2-departure",
+        "type": "narration",
+        "title": "启程",
+        "text": "耶输陀罗整好衣钵，步出住处。众多比丘尼默默随行，山路在她们前方伸向佛陀所住的岩窟。",
+        "pali": "Pattacīvaramādāya,nikkhamitvā sakassamā;\nPurakkhatā bhikkhunībhi,satehi sahassehi sā.",
+        "backgroundImage": "/images/yasodhara-departure-bg.png",
+        "nextScene": "c2-cave"
+      },
+      {
+        "id": "c2-cave",
+        "type": "narration",
+        "title": "最后一次礼敬",
+        "text": "具备大神通与大智慧，她来到正等觉者面前；向正等觉者顶礼后，坐在世尊足部的轮相旁。",
+        "pali": "Mahiddhikā mahāpaññā,sambuddhaṁ upasaṅkami;\nSambuddhaṁ abhivādetvā,satthuno cakkalakkhaṇe;",
+        "backgroundImage": "/images/buddha-dialogue-bg.png",
+        "portrait": "/images/buddha-portrait.png",
+        "portraitPosition": "50% center",
+        "nextScene": "c2-farewell"
+      },
+      {
+        "id": "c2-farewell",
+        "type": "dialogue",
+        "speaker": "耶输陀罗长老尼",
+        "pali": "Aṭṭhasattativassāhaṁ, pacchimo vattate vayo.",
+        "translation": "我今七十八岁，生命已到最后阶段。",
+        "text": "世尊，今夜我将趣向涅槃。长久轮回中，若我曾有任何过失，愿您慈悲宽恕。",
+        "backgroundImage": "/images/buddha-dialogue-bg.png",
+        "portrait": "/images/yasodhara-portrait.png",
+        "portraitPosition": "68% center",
+        "nextScene": "c2-quiz-age"
+      },
+      {
+        "id": "c2-quiz-age",
+        "type": "quiz",
+        "title": "语言小径 · 数词",
+        "pali": "Aṭṭhasattativassāhaṁ",
+        "translation": "aṭṭha：八；sattati：七十；vassa：年。",
+        "backgroundImage": "/images/buddha-dialogue-bg.png",
+        "quiz": {
+          "id": "quiz-age",
+          "kind": "input",
+          "question": "这句巴利语说明耶输陀罗现在多少岁？请输入数字。",
+          "correctAnswer": "78",
+          "acceptedAnswers": ["78", "７８", "七十八"],
+          "hint": "Aṭṭha = 8；sattati = 70，合起来是七十八。",
+          "correctFeedback": "正确。Aṭṭhasattati 表示七十八。",
+          "wrongFeedback": "还不对。将 aṭṭha（八）与 sattati（七十）合起来再试一次。"
+        },
+        "nextScene": "c2-quiz-forgive"
+      },
+      {
+        "id": "c2-quiz-forgive",
+        "type": "quiz",
+        "title": "语言小径 · 告别语",
+        "pali": "aparādhaṁ khamassu me",
+        "translation": "aparādha：过失；khamassu：请宽恕。",
+        "backgroundImage": "/images/buddha-dialogue-bg.png",
+        "quiz": {
+          "id": "quiz-forgive",
+          "kind": "choice",
+          "question": "aparādhaṁ khamassu me 最接近哪种意思？",
+          "options": [
+            { "id": "forgive", "text": "请原谅我的过失" },
+            { "id": "give-alms-bowl", "text": "请赐给我衣钵" },
+            { "id": "show-road", "text": "请告诉我道路" },
+            { "id": "gather-nuns", "text": "请召集所有比丘尼" }
+          ],
+          "correctAnswerId": "forgive",
+          "hint": "aparādha 是过失，khamassu 是请求宽恕。",
+          "correctFeedback": "正确。这是她在告别前向佛陀请求宽恕。",
+          "wrongFeedback": "不对。注意这句话属于告别和忏悔语境。"
+        },
+        "nextScene": "c2-reward"
+      },
+      {
+        "id": "c2-reward",
+        "type": "reward",
+        "title": "最后的礼敬",
+        "text": "你陪伴她走完山路，也听懂了那句克制而真挚的请求。",
+        "lotusPetalsReward": 1,
+        "backgroundImage": "/images/buddha-dialogue-bg.png",
+        "rewardImage": "/images/petals/petal-blue.png",
+        "nextScene": null
+      }
+    ]
+  },
+  {
+    "id": "chapter-3",
+    "order": 3,
+    "title": "佛陀应答",
+    "subtitle": "认可并非挽留，而是让清净的成就显现在众人面前",
+    "location": "佛陀住处 · 石窟法会",
+    "backgroundImage": "/images/buddha-dialogue-bg.png",
+    "backgroundPosition": "center center",
+    "portrait": "/images/buddha-portrait.png",
+    "portraitPosition": "50% center",
+    "fallbackTheme": "cave",
+    "scenes": [
+      {
+        "id": "c3-silence",
+        "type": "narration",
+        "title": "会众静默",
+        "text": "耶输陀罗的话音落下。岩窟中的会众屏息静听，仿佛连灯焰也在等待世尊的回答。",
+        "backgroundImage": "/images/buddha-dialogue-bg.png",
+        "nextScene": "c3-buddha"
+      },
+      {
+        "id": "c3-buddha",
+        "type": "dialogue",
+        "speaker": "佛陀",
+        "text": "你即将前往涅槃，我对你还有什么好吩咐的呢？你应显示神通，我的教法奉行者啊；并且应尽可能地断除一切集会大众的疑惑。",
+        "pali": "Kimuttaraṁ te vakkhāmi,nibbānāya vajantiyā？Iddhiñcāpi nidassehi,mama sāsanakārike; Parisānañca sabbāsaṁ,kaṅkhaṁ chindassu yāvatā",
+        "backgroundImage": "/images/buddha-dialogue-bg.png",
+        "portrait": "/images/buddha-portrait.png",
+        "portraitPosition": "50% center",
+        "nextScene": "c3-recognition"
+      },
+      {
+        "id": "c3-recognition",
+        "type": "narration",
+        "title": "无须挽留",
+        "text": "世尊没有挽留。那回答中没有悲恸，只有对她修行成就的完全认可。会众的目光转向耶输陀罗，等待她证明久远以来所成就的一切。",
+        "backgroundImage": "/images/buddha-dialogue-bg.png",
+        "nextScene": "c3-reward"
+      },
+      {
+        "id": "c3-reward",
+        "type": "reward",
+        "title": "疑云将散",
+        "text": "最后一片莲花瓣在静默中亮起。它们将成为开启久远往事的信物。",
+        "lotusPetalsReward": 1,
+        "backgroundImage": "/images/buddha-dialogue-bg.png",
+        "rewardImage": "/images/petals/petal-purple.png",
+        "nextScene": null
+      }
+    ]
+  },
+  {
+    "id": "chapter-4",
+    "order": 4,
+    "title": "自述前世身份",
+    "subtitle": "她在佛前讲述释迦族出身、宫廷身份与超越欲界的境界",
+    "location": "佛陀住处 · 石窟法会",
+    "backgroundImage": "/images/volume-2-identity.png",
+    "backgroundPosition": "center center",
+    "fallbackTheme": "cave",
+    "scenes": [
+      {
+        "id": "v2-identity-1",
+        "type": "dialogue",
+        "title": "第一部分 · 自述前世身份",
+        "speaker": "耶输陀罗长老尼",
+        "text": "英雄啊！我是耶輸陀羅，曾是你居家時的妻子。我出生於釋迦族，具備女性的身相。",
+        "pali": "Yasodharā ahaṁ vīra,agāre te pajāpati; Sākiyamhi kule jātā,itthiaṅge patiṭṭhitā.",
+        "backgroundImage": "/images/volume-2-identity.png",
+        "nextScene": "v2-identity-2"
+      },
+      {
+        "id": "v2-identity-2",
+        "type": "dialogue",
+        "title": "宫廷中的地位",
+        "speaker": "耶输陀罗长老尼",
+        "text": "在你的宮廷之中，我是九萬六千名婦女的首領與統治者。眾人皆對我恭敬，猶如具备人身的女神。",
+        "pali": "Thīnaṁ satasahassānaṁ,navutīnaṁ chaduttari; Sabbā maṁ apacāyanti,devatā viya mānusā.",
+        "backgroundImage": "/images/volume-2-palace-life.png",
+        "nextScene": "v2-identity-3"
+      },
+      {
+        "id": "v2-identity-3",
+        "type": "dialogue",
+        "title": "超越欲界",
+        "speaker": "耶输陀罗长老尼",
+        "text": "我超越了欲界，安住於色界之質。論及美貌，除了世間導師之外，無人能與我相比。",
+        "pali": "Kāmadhātumatikkamma, saṇṭhitā rūpadhātuyā; Rūpena sadisā natthi,ṭhapetvā lokanāyakaṁ.",
+        "backgroundImage": "/images/volume-2-palace-life.png",
+        "nextScene": "v2-identity-quiz"
+      },
+      {
+        "id": "v2-identity-quiz",
+        "type": "quiz",
+        "title": "文化小径 · 欲界与色界",
+        "pali": "Kāmadhātumatikkamma, saṇṭhitā rūpadhātuyā",
+        "translation": "kāmadhātu：欲界；rūpadhātu：色界。",
+        "backgroundImage": "/images/volume-2-identity.png",
+        "quiz": {
+          "id": "quiz-v2-desire-form-realms",
+          "kind": "choice",
+          "question": "“Kāmadhātumatikkamma, saṇṭhitā rūpadhātuyā” 一句是什么意思？佛教语境中有何文化意涵？",
+          "options": [
+            { "id": "mountain-practice", "text": "我离开王宫，前往山中修行。" },
+            { "id": "form-realm", "text": "我超越欲界，安住于色界；这说明她的境界已超越普通欲乐层次。" },
+            { "id": "deity-appearance", "text": "我长得像天神，因此众人敬畏。" },
+            { "id": "foreign-travel", "text": "我决定前往他国游历。" }
+          ],
+          "correctAnswerId": "form-realm",
+          "hint": "kāmadhātu 指欲界，rūpadhātu 指色界。这里不是地理空间，而是佛教宇宙论和修行境界中的层次。",
+          "correctFeedback": "正确。这句话不仅是在说身份尊贵，也暗示她的境界已经超越一般欲界生命，进入更高层次的存在与修行语境。",
+          "wrongFeedback": "再想想。这一句不是在说宫廷地位，而是在说佛教中的“欲界、色界”层次。"
+        },
+        "nextScene": "v2-identity-reward"
+      },
+      {
+        "id": "v2-identity-reward",
+        "type": "reward",
+        "rewardId": "volume-2-part-1-petal",
+        "title": "身份与境界",
+        "text": "你听见了耶输陀罗对往昔身份的自述，也理解了欲界与色界并非地理疆域。",
+        "lotusPetalsReward": 1,
+        "backgroundImage": "/images/volume-2-identity.png",
+        "rewardImage": "/images/petals/petal-gold.png",
+        "nextScene": null
+      }
+    ]
+  },
+  {
+    "id": "chapter-5",
+    "order": 5,
+    "title": "示现大神通",
+    "subtitle": "广大身体化现轮围世界、日月、须弥山与种种形相",
+    "location": "佛陀住处 · 石窟法会",
+    "backgroundImage": "/images/volume-2-miracles.png",
+    "backgroundPosition": "center center",
+    "fallbackTheme": "cave",
+    "scenes": [
+      {
+        "id": "v2-miracles-1",
+        "type": "dialogue",
+        "title": "第二部分 · 示现大神通",
+        "speaker": "耶输陀罗长老尼",
+        "text": "她向正等觉的导师顶礼后，展现了各种各样的广大神通。",
+        "pali": "Sambuddhaṁ abhivādetvā,iddhiṁ dassesi satthuno; Nekā nānāvidhākārā,mahāiddhīpi dassayī.",
+        "backgroundImage": "/images/volume-2-miracles.png",
+        "nextScene": "v2-miracles-2"
+      },
+      {
+        "id": "v2-miracles-2",
+        "type": "dialogue",
+        "title": "身体化为世界",
+        "speaker": "耶输陀罗长老尼",
+        "text": "身如轮围山，頭部是北俱卢。兩胁為雙洲，身即贍部洲。",
+        "pali": "Cakkavāḷasamaṁ kāyaṁ,sīsaṁ uttarato kuru; Ubho pakkhā duve dīpā,jambudīpaṁ sarīrato.",
+        "backgroundImage": "/images/volume-2-miracles.png",
+        "nextScene": "v2-miracles-3"
+      },
+      {
+        "id": "v2-miracles-3",
+        "type": "dialogue",
+        "title": "日月与须弥",
+        "speaker": "耶输陀罗长老尼",
+        "text": "尾羽為南海，支流如羽毛。日月為雙目，頂如须弥山。鸟喙如轮围山，扇动着带着根的阎浮树。",
+        "pali": "Dakkhiṇañca saraṁ piñchaṁ,nānāsākhā tu pattakā; Candañca sūriyañcakkhi,merupabbatato sikhaṁ. Cakkavāḷagiriṁ tuṇḍaṁ,jamburukkhaṁ samūlakaṁ.",
+        "backgroundImage": "/images/volume-2-miracles.png",
+        "nextScene": "v2-miracles-4"
+      },
+      {
+        "id": "v2-miracles-4",
+        "type": "dialogue",
+        "title": "万象显现",
+        "speaker": "耶输陀罗长老尼",
+        "text": "她輕盈地走近，向世間的導師頂禮。她化現出如象、如馬之色，或是山嶽與大海。又示現月亮、太陽、須彌山，以及帝釋天的身相。",
+        "pali": "Bījamānā upāgantvā,vandantī lokanāyakaṁ. Hatthivaṇṇaṁ tathevassaṁ,pabbataṁ jaladhiṁ tathā; Candimaṁ sūriyaṁ meruṁ,sakkavaṇṇañca dassayi.",
+        "backgroundImage": "/images/volume-2-miracles.png",
+        "nextScene": "v2-miracles-quiz"
+      },
+      {
+        "id": "v2-miracles-quiz",
+        "type": "quiz",
+        "title": "语言小径 · 佛教宇宙词汇",
+        "pali": "cakkavāḷa · jambudīpa · canda / candima · sūriya · meru / merupabbata",
+        "translation": "选择五组词义全部对应正确的一项。",
+        "backgroundImage": "/images/volume-2-miracles.png",
+        "quiz": {
+          "id": "quiz-v2-cosmology-terms",
+          "kind": "choice",
+          "question": "以下哪一组佛教宇宙词汇与中文释义全部匹配正确？",
+          "options": [
+            { "id": "cosmology-correct", "text": "cakkavāḷa—轮围世界 / 轮围山；jambudīpa—赡部洲；canda / candima—月亮；sūriya—太阳；meru / merupabbata—须弥山" },
+            { "id": "cosmology-swapped", "text": "cakkavāḷa—赡部洲；jambudīpa—轮围山；canda / candima—太阳；sūriya—月亮；meru / merupabbata—须弥山" },
+            { "id": "cosmology-misaligned", "text": "cakkavāḷa—须弥山；jambudīpa—月亮；canda / candima—赡部洲；sūriya—太阳；meru / merupabbata—轮围山" },
+            { "id": "cosmology-unrelated", "text": "cakkavāḷa—大海；jambudīpa—帝释天；canda / candima—月亮；sūriya—须弥山；meru / merupabbata—太阳" }
+          ],
+          "correctAnswerId": "cosmology-correct",
+          "hint": "这些词都来自佛教宇宙观，用来表现耶输陀罗神通化现出的广大身体。",
+          "correctFeedback": "正确。轮围世界、赡部洲、日月与须弥山共同构成了这一段宏大的佛教宇宙图景。",
+          "wrongFeedback": "再对照一次日月、赡部洲与须弥山的巴利语名称。"
+        },
+        "nextScene": "v2-miracles-reward"
+      },
+      {
+        "id": "v2-miracles-reward",
+        "type": "reward",
+        "rewardId": "volume-2-part-2-petal",
+        "title": "世界在身中显现",
+        "text": "轮围世界、赡部洲、日月与须弥山的名字，在神通化现中一一亮起。",
+        "lotusPetalsReward": 1,
+        "backgroundImage": "/images/volume-2-miracles.png",
+        "rewardImage": "/images/petals/petal-teal.png",
+        "nextScene": null
+      }
+    ]
+  },
+  {
+    "id": "chapter-6",
+    "order": 6,
+    "title": "自证修行成就",
+    "subtitle": "神通收摄于清明，她陈说六通、漏尽与圆满承事",
+    "location": "佛陀住处 · 石窟法会",
+    "backgroundImage": "/images/volume-2-attainment.png",
+    "backgroundPosition": "center center",
+    "fallbackTheme": "cave",
+    "scenes": [
+      {
+        "id": "v2-attainment-1",
+        "type": "dialogue",
+        "title": "第三部分 · 自证修行成就",
+        "speaker": "耶输陀罗长老尼",
+        "text": "化現梵天之色身，演說空性微妙法。英雄！我乃耶輸陀羅，頂禮大覺者雙足。",
+        "pali": "Brahmavaṇṇañca māpetvā,dhammaṁ desesi suññataṁ; Yasodharā ahaṁ vīra,pāde vandāmi cakkhuma.",
+        "backgroundImage": "/images/volume-2-attainment.png",
+        "nextScene": "v2-attainment-2"
+      },
+      {
+        "id": "v2-attainment-2",
+        "type": "dialogue",
+        "title": "神通自在",
+        "speaker": "耶输陀罗长老尼",
+        "text": "我在神通上已得自在，具足天耳界。我已於他心智中獲得自在，大牟尼！",
+        "pali": "Iddhīsu ca vasī homi,dibbāya sotadhātuyā; Cetopariyañāṇassa,vasī homi mahāmuni.",
+        "backgroundImage": "/images/volume-2-attainment.png",
+        "nextScene": "v2-attainment-3"
+      },
+      {
+        "id": "v2-attainment-3",
+        "type": "dialogue",
+        "title": "不再受生",
+        "speaker": "耶输陀罗长老尼",
+        "text": "我能憶持宿命，天眼已清淨。諸漏皆已永盡，現在不再受生。",
+        "pali": "Pubbenivāsaṁ jānāmi,dibbacakkhu visodhitaṁ; Sabbāsavā parikkhīṇā,natthi dāni punabbhavo.",
+        "backgroundImage": "/images/volume-2-attainment.png",
+        "nextScene": "v2-attainment-4"
+      },
+      {
+        "id": "v2-attainment-4",
+        "type": "dialogue",
+        "title": "智慧与承事圆满",
+        "speaker": "耶输陀罗长老尼",
+        "text": "於義、法、詞、辯四無礙解中，大英雄！我的智慧已在你座下生起。過往世間導師的相遇，已由你示現。大牟尼！我為你而作的廣大承事已圓滿。",
+        "pali": "Attha-dhamma-niruttīsu,paṭibhāne tatheva ca; Ñāṇaṁ mayhaṁ mahāvīra,uppannaṁ tava santike. Pubbānaṁ lokanāthānaṁ,saṅgamaṁ te nidassitaṁ; Adhikāraṁ bahuṁ mayhaṁ,tuyhatthāya mahāmune.",
+        "backgroundImage": "/images/volume-2-attainment.png",
+        "nextScene": "v2-attainment-quiz"
+      },
+      {
+        "id": "v2-attainment-quiz",
+        "type": "quiz",
+        "title": "修行小径 · 六通",
+        "pali": "iddhīsu · dibbasota · cetopariyañāṇa · pubbenivāsa · dibbacakkhu · āsavakkhaya",
+        "translation": "从自白中的六组关键词辨认六通。",
+        "backgroundImage": "/images/volume-2-attainment.png",
+        "quiz": {
+          "id": "quiz-v2-six-knowledges",
+          "kind": "choice",
+          "question": "耶输陀罗刚才的自白中说明，佛教中的“六通”包括什么？",
+          "options": [
+            { "id": "six-knowledges", "text": "神足通、天耳通、他心通、宿命通、天眼通、漏尽通" },
+            { "id": "mixed-abilities", "text": "神足通、天耳通、辩才通、宿命通、禅定通、漏尽通" },
+            { "id": "six-paramitas", "text": "布施通、持戒通、忍辱通、精进通、禅定通、智慧通" },
+            { "id": "mixed-concepts", "text": "天耳通、他心通、宿命通、天眼通、四无碍解、帝释天身" }
+          ],
+          "correctAnswerId": "six-knowledges",
+          "hint": "可以从耶输陀罗的自白中寻找关键词：神通、天耳、他心、宿命、天眼、不再受生。",
+          "correctFeedback": "正确。这里最重要的是，耶输陀罗不是单纯示现神通，而是在说明自己已经具足解脱者的成就。",
+          "wrongFeedback": "再看看她的自白。六通不只是“神通”一个词，而是几种修行所得的不同能力。",
+          "explanation": "六通简注：\n神足通：示现种种不可思议变化与自在能力\n天耳通：听闻超越常人的声音\n他心通：知晓他人的心念\n宿命通：忆知自己过去世\n天眼通：见众生死生去来\n漏尽通：断尽烦恼，不再受生"
+        },
+        "nextScene": "v2-attainment-reward"
+      },
+      {
+        "id": "v2-attainment-reward",
+        "type": "reward",
+        "rewardId": "volume-2-part-3-petal",
+        "title": "清明自证",
+        "text": "神通归于清明，最后一片莲花瓣见证了不再受生的解脱成就。",
+        "lotusPetalsReward": 1,
+        "backgroundImage": "/images/volume-2-attainment.png",
+        "rewardImage": "/images/petals/petal-dusk-blue.png",
+        "nextScene": "v2-complete"
+      },
+      {
+        "id": "v2-complete",
+        "type": "completion",
+        "title": "第二卷结束：神通已现",
+        "text": "耶输陀罗已经在佛前显现种种大神通，并说明自己具足神通、天耳、他心智、宿命智、天眼与漏尽等成就。会众的疑惑被逐渐断除，而更久远的因缘故事，也将随之展开。",
+        "backgroundImage": "/images/volume-2-attainment.png",
+        "nextScene": null
+      }
+    ]
+  },
+  {
+    "id": "chapter-7",
+    "order": 7,
+    "title": "燃灯佛将至",
+    "subtitle": "最初因缘回到四阿僧祇又十万劫前，众人满心欢喜地清扫迎佛之路",
+    "location": "边境城镇 · 迎佛道路",
+    "backgroundImage": "/images/chapter-7-dipankara-arrival.png",
+    "backgroundPosition": "center center",
+    "fallbackTheme": "rajagaha",
+    "scenes": [
+      {
+        "id": "c7-karmic-bridge",
+        "type": "narration",
+        "title": "因缘之源",
+        "text": "耶输陀罗告诉佛陀：在无数轮回中，她曾为佛陀积累功德、奉献生命、财物与亲属，历经苦乐而心无怨怼。但这一切因缘的源头，要追溯到四阿僧祇又十万劫以前，燃灯佛出现于世的那一天。",
+        "backgroundImage": "/images/buddha-dialogue-bg.png",
+        "nextScene": "c7-dipankara-appears"
+      },
+      {
+        "id": "c7-dipankara-appears",
+        "type": "narration",
+        "title": "燃灯佛出现于世",
+        "text": "在四阿僧祇又十萬劫前，大英雄、世間導師燃燈佛（Dīpaṅkara）出現於世。",
+        "pali": "Kappe ca satasahasse,caturo ca asaṅkhiye; Dīpaṅkaro mahāvīro,uppajji lokanāyako.",
+        "backgroundImage": "/images/chapter-7-dipankara-arrival.png",
+        "nextScene": "c7-road-preparation"
+      },
+      {
+        "id": "c7-road-preparation",
+        "type": "narration",
+        "title": "满心欢喜的道路",
+        "text": "在邊境地區的人們，邀請了這位如來。他們滿心歡喜地清掃路徑，迎接佛陀的到來。",
+        "pali": "Paccantadesavisaye,nimantetvā tathāgataṁ; Tassa āgamanaṁ maggaṁ,sodhenti tuṭṭhamānasā.",
+        "backgroundImage": "/images/chapter-7-dipankara-arrival.png",
+        "nextScene": "c7-dipankara-quiz"
+      },
+      {
+        "id": "c7-dipankara-quiz",
+        "type": "quiz",
+        "title": "语言小径 · 过去佛",
+        "pali": "Dīpaṅkara",
+        "translation": "这一名字出现在最初因缘故事的开端。",
+        "backgroundImage": "/images/chapter-7-dipankara-arrival.png",
+        "quiz": {
+          "id": "quiz-c7-dipankara",
+          "kind": "choice",
+          "question": "Dīpaṅkara 在这里指的是谁？",
+          "options": [
+            { "id": "dipankara-buddha", "text": "燃灯佛" },
+            { "id": "sakka", "text": "帝释天" },
+            { "id": "sakya-king", "text": "释迦族国王" },
+            { "id": "sumitta-father", "text": "善慧少女的父亲" }
+          ],
+          "correctAnswerId": "dipankara-buddha",
+          "hint": "Dīpaṅkara 是佛教过去佛中的重要一位，中文通常译为“燃灯佛”。",
+          "correctFeedback": "正确。Dīpaṅkara 即燃灯佛，是这一段“最初因缘”故事的关键人物。",
+          "wrongFeedback": "再想想。这不是普通人物名，而是一位过去佛的名称。"
+        },
+        "nextScene": "c7-reward"
+      },
+      {
+        "id": "c7-reward",
+        "type": "reward",
+        "rewardId": "chapter-7-dipankara-petal",
+        "title": "最初因缘",
+        "text": "你获得了第 7 片莲花瓣。",
+        "lotusPetalsReward": 1,
+        "backgroundImage": "/images/chapter-7-dipankara-arrival.png",
+        "rewardImage": "/images/petals/petal-purple-low-quality.png",
+        "nextScene": null
+      }
+    ]
+  },
+  {
+    "id": "chapter-8",
+    "order": 8,
+    "title": "借花献佛因缘",
+    "subtitle": "八朵青莲将供养、净信与共同趋向菩提的愿心联结起来",
+    "location": "迎佛盛会 · 人群之中",
+    "backgroundImage": "/images/chapter-8-sumitta-lotuses.png",
+    "backgroundPosition": "center center",
+    "fallbackTheme": "rajagaha",
+    "scenes": [
+      {
+        "id": "c8-sumitta-arrives",
+        "type": "dialogue",
+        "title": "善慧少女",
+        "speaker": "善慧少女",
+        "text": "那時，我是一位婆羅門出身的少女。名叫善慧（Sumittā），我也前去參加那場盛會。",
+        "pali": "Tena kālenahaṁ āsiṁ,kaññā brāhmaṇasambhavā; Sumittā nāma nāmena,upagacchiṁ samāgamaṁ.",
+        "backgroundImage": "/images/chapter-8-sumitta-lotuses.png",
+        "nextScene": "c8-eight-lotuses"
+      },
+      {
+        "id": "c8-eight-lotuses",
+        "type": "dialogue",
+        "title": "八朵青莲",
+        "speaker": "善慧少女",
+        "text": "為了供養導師，我手持八朵青蓮花，在人群中看見了那位如聖者般的佛陀出现了。（那佛陀是）长久追隨悲悯的、出色的、动人的。那时见到他之后，我就觉得生命有了意义。",
+        "pali": "Aṭṭha uppala-hatthāni,pūjana-tthāya satthuno; Ādāya jana-sammajjhe,addasaṁ isim uggataṁ. Cirānugataṁ dayitaṁ, atikkantaṁ manoharaṁ; Disvā tadā amaññissaṁ,saphalaṁ jīvitaṁ mama.",
+        "backgroundImage": "/images/chapter-8-sumitta-lotuses.png",
+        "nextScene": "c8-faith-arises"
+      },
+      {
+        "id": "c8-faith-arises",
+        "type": "dialogue",
+        "title": "净信生起",
+        "speaker": "善慧少女",
+        "text": "那時我見到了仙人有成就的精进。由于过去的业，我的心對正等覺者生起淨信。我再次於這位心志高遠的仙人面前，生起極大的清淨信心。除了布施這些鮮花給您，仙人，我看不到其他可供養之物。",
+        "pali": "Parakkamaṁ taṁ saphalaṁ,addasaṁ isino tadā; Pubba-kammena sambuddhe,cittañcāpi pasīdi me. Bhiyyo cittaṁ pasādesiṁ,ise uggatamānase; Deyyaṁ aññaṁ na passāmi,demi pupphāni te isi.",
+        "backgroundImage": "/images/chapter-8-sumitta-lotuses.png",
+        "nextScene": "c8-shared-vow"
+      },
+      {
+        "id": "c8-shared-vow",
+        "type": "dialogue",
+        "title": "五朵与三朵",
+        "speaker": "善慧少女",
+        "text": "仙人，願其中五朵花歸屬於您，三朵花歸屬於我。願藉此功德，我與您一同平等地證得正覺，仙人。",
+        "pali": "Pañca hatthā tava hontu,tayo hontu mamaṁ ise; Tena saddhiṁ samā hontu,bodhatthāya tavaṁ ise.",
+        "backgroundImage": "/images/chapter-8-sumitta-lotuses.png",
+        "nextScene": "c8-shared-vow-quiz"
+      },
+      {
+        "id": "c8-shared-vow-quiz",
+        "type": "quiz",
+        "title": "文化小径 · 共享功德",
+        "pali": "Pañca hatthā tava hontu, tayo hontu mamaṁ ise; Tena saddhiṁ samā hontu, bodhatthāya tavaṁ ise.",
+        "translation": "重点不仅是五朵与三朵的分配，也在于共同趋向菩提的发愿。",
+        "backgroundImage": "/images/chapter-8-sumitta-lotuses.png",
+        "quiz": {
+          "id": "quiz-c8-shared-vow",
+          "kind": "choice",
+          "question": "这句话更准确地表达了什么意思？",
+          "options": [
+            { "id": "personal-merit", "text": "她想把八朵花全部献给自己，以求个人福报。" },
+            { "id": "shared-awakening", "text": "她愿将五朵花给仙人、三朵留给自己，并希望凭借这份功德与仙人共同趋向觉悟。" },
+            { "id": "refuse-offering", "text": "她决定不再供养任何人，因为花太少了。" },
+            { "id": "polite-division", "text": "她只是礼貌地把花分开，并没有发愿。" }
+          ],
+          "correctAnswerId": "shared-awakening",
+          "hint": "请注意：这里不仅有数字“五”和“三”，更重要的是后一句发愿：愿藉此功德，与仙人一同平等地趋向菩提。",
+          "correctFeedback": "正确。这不是简单的“分花”，而是“共享功德、共同发愿”的关键情节。善慧少女主动把供养的机会与自己的愿心都与仙人联系起来。",
+          "wrongFeedback": "再读一遍后半句。重点不只是数字分配，而是她希望“与仙人一同平等地证得正觉”。"
+        },
+        "nextScene": "c8-reward"
+      },
+      {
+        "id": "c8-reward",
+        "type": "reward",
+        "rewardId": "chapter-8-shared-vow-petal",
+        "title": "同愿菩提",
+        "text": "你获得了第 8 片莲花瓣。",
+        "lotusPetalsReward": 1,
+        "backgroundImage": "/images/chapter-8-sumitta-lotuses.png",
+        "rewardImage": "/images/petals/petal-gold.png",
+        "nextScene": null
+      }
+    ]
+  },
+  {
+    "id": "chapter-9",
+    "order": 9,
+    "title": "献花与授记",
+    "subtitle": "八瓣之花随清净愿心升起，燃灯佛于众人中宣说久远授记",
+    "location": "迎佛盛会 · 燃灯佛前",
+    "backgroundImage": "/images/chapter-9-offering.png",
+    "backgroundPosition": "center center",
+    "fallbackTheme": "rajagaha",
+    "scenes": [
+      {
+        "id": "c9-ascetic-offers",
+        "type": "dialogue",
+        "title": "仙人献花",
+        "speaker": "耶输陀罗长老尼",
+        "text": "仙人拿起花朵，奔向那位名聲顯赫者。在眾人之中，大仙為了求證菩提而獻上供養。",
+        "pali": "Isi gahetvā pupphāni,āgacchantaṁ mahāyasaṁ; Pūjesi janasammajjhe,bodhatthāya mahāisi.",
+        "backgroundImage": "/images/chapter-9-offering.png",
+        "backgroundPosition": "78% center",
+        "nextScene": "c9-lotus-offering"
+      },
+      {
+        "id": "c9-lotus-offering",
+        "type": "offering",
+        "title": "八瓣之花",
+        "text": "现在，把之前收集的莲花瓣也一同供养吧。让这八片莲花瓣化为善慧手中的供花，随最初的清净愿心一同献给燃灯佛。",
+        "backgroundImage": "/images/chapter-9-offering.png",
+        "backgroundPosition": "78% center",
+        "interaction": {
+          "kind": "lotusToHalo",
+          "buttonLabel": "将莲花献给燃灯佛",
+          "completionText": "供养已完成。八片莲花瓣化为一朵虹彩莲花，与仙人的供花一同奉至燃灯佛前。",
+          "image": "/images/chapter-9-rainbow-lotus.png",
+          "requiredPetals": 8
+        },
+        "nextScene": "c9-dipankara-sees"
+      },
+      {
+        "id": "c9-dipankara-sees",
+        "type": "dialogue",
+        "title": "燃灯佛授记",
+        "speaker": "耶输陀罗长老尼",
+        "text": "大牟尼燃燈佛，在眾人之中看見了那位心意已決、志求解脫的仙人。大英雄隨即為他授記。",
+        "pali": "Passitvā janasammajjhe,dīpaṅkaro mahāmuni; Viyākāsi mahāvīro,isi muggatamānasaṁ.",
+        "backgroundImage": "/images/chapter-9-offering-prophecy.png",
+        "nextScene": "c9-yasodhara-prophecy"
+      },
+      {
+        "id": "c9-yasodhara-prophecy",
+        "type": "dialogue",
+        "title": "久远以前的授记",
+        "speaker": "耶输陀罗长老尼",
+        "text": "在無量劫以前，燃燈大牟尼向我授記。那位大仙人正直地（向我宣說）了業果。",
+        "pali": "Aparimeyye ito kappe,dīpaṅkaro mahāmuni; Mama kammaṁ viyākāsi,ujubhāvaṁ mahāmuni.",
+        "backgroundImage": "/images/chapter-9-offering-prophecy.png",
+        "nextScene": "c9-prophecy-words"
+      },
+      {
+        "id": "c9-prophecy-words",
+        "type": "dialogue",
+        "title": "同心、同业、同行",
+        "speaker": "燃灯佛",
+        "text": "她將會是你同心、同業、同行的伴侶；為了你的緣故，她將因其業力而成為你的妻子。她將會是面容端嚴、極受喜愛、意態迷人且言談溫婉的伴侶。她將作為你的法嗣，具足神通而住。",
+        "pali": "Samacittā samakammā,samakārī bhavissati; Piyā hessati kammena,tuyhatthāya mahā-isi. Sudassanā supiyā ca,manāpā piyavādinī; Tassa（te） dhammesu dāyādā,viharissati iddhikā.",
+        "backgroundImage": "/images/chapter-9-offering-prophecy.png",
+        "nextScene": "c9-complete"
+      },
+      {
+        "id": "c9-complete",
+        "type": "completion",
+        "title": "授记已立 · 尾声未完",
+        "text": "最初的因缘已被揭示。八瓣之花已献，授记之言已立。关于这段因缘的意义，耶输陀罗还将继续述说……",
+        "backgroundImage": "/images/chapter-9-offering-prophecy.png",
+        "nextScene": null
+      }
+    ]
+  },
+  {
+    "id": "chapter-10",
+    "order": 10,
+    "title": "最后一生",
+    "subtitle": "无量劫因缘归于法行圆满，耶输陀罗在佛前安静告别",
+    "location": "王舍城 · 佛前石窟",
+    "backgroundImage": "/images/epilogue-cave-farewell.png",
+    "backgroundPosition": "center center",
+    "fallbackTheme": "cave",
+    "scenes": [
+      {
+        "id": "c10-dharma-practice",
+        "type": "dialogue",
+        "title": "行法安稳",
+        "speaker": "耶输陀罗长老尼",
+        "text": "法王啊！請聽我說，此乃我之極大福德。正如對法行持極為清淨、且恆常實踐正法的人們一樣，行法之人可以安住於安穩，不論在今生還是來世。應當行持妙行之法，切莫行持惡行之法。行法之人能安住於安穩，不論在今生還是來世。",
+        "pali": "Adhikāraṁ mahā mayhaṁ,dhammarāja suṇohi me. Evaṁ dhamme suciṇṇānaṁ,sadā dhammassa cārinaṁ; Dhammacārī sukhaṁ seti,asmiṁ loke paramhi ca. Dhammaṁ care sucaritaṁ,na naṁ duccaritaṁ care; Dhammacārī sukhaṁ seti,asmiṁ loke paramhi ca.",
+        "backgroundImage": "/images/epilogue-cave-farewell.png",
+        "nextScene": "c10-renunciation-awakening"
+      },
+      {
+        "id": "c10-renunciation-awakening",
+        "type": "dialogue",
+        "title": "出家证悟",
+        "speaker": "耶输陀罗长老尼",
+        "text": "在生死輪迴中生起厭離心後，我剃度出家，過著無家的修行生活。我與千名隨從一同出家，成為一無所有、無所執著的修行者。我捨棄了家庭，出家而成為無家者。在未滿半個月之時，我便證悟了四聖諦。",
+        "pali": "Nibbinditvāna saṁsāre,pabbajiṁ anagāriyaṁ. Sahassaparivārena,pabbajitvā akiñcanā. Agāraṁ vijahitvāna,pabbajiṁ anagāriyaṁ. Aḍḍhamāse asampatte,catusaccamapāpuṇiṁ.",
+        "backgroundImage": "/images/yasodhara-departure-bg.png",
+        "nextScene": "c10-offerings-unbound"
+      },
+      {
+        "id": "c10-offerings-unbound",
+        "type": "dialogue",
+        "title": "无漏而住",
+        "speaker": "耶输陀罗长老尼",
+        "text": "袈裟、飲食、醫藥與床座等資具，眾多的人們紛紛向我奉獻，猶如大海中的波濤。我的煩惱已被燒盡。我已無漏而住。",
+        "pali": "Cīvaraṁ piṇḍapātañca,paccayaṁ sayanāsanaṁ; Upanenti bahū janā,sāgareyeva ūmiyo. Kilesā jhāpitā mayhaṁ,viharāmi anāsavā.",
+        "backgroundImage": "/images/epilogue-cave-farewell.png",
+        "nextScene": "c10-teaching-fulfilled"
+      },
+      {
+        "id": "c10-teaching-fulfilled",
+        "type": "dialogue",
+        "title": "教法已成",
+        "speaker": "耶输陀罗长老尼",
+        "text": "我的到來真是太好了，佛陀的教法我已達成。四無礙解已證得，佛陀的教法我已達成。我經歷了如是種種諸痛苦，以及種種諸成就。我證得清淨之狀態，獲得一切圓滿。",
+        "pali": "Svāgataṁ vata me āsi,kataṁ buddhassa sāsanaṁ. Paṭisambhidā catasso,kataṁ buddhassa sāsanaṁ. Evaṁ bahuvidhaṁ dukkhaṁ,sampattī ca bahubbidhā; Visuddhibhāvaṁ sampattā,labhāmi sabbasampadā.",
+        "backgroundImage": "/images/epilogue-cave-farewell.png",
+        "nextScene": "c10-last-life"
+      },
+      {
+        "id": "c10-last-life",
+        "type": "narration",
+        "title": "最后一生",
+        "text": "在天道與人道，我經歷了無數次的受生。我在天界與人間中經歷了快樂與痛苦。到了最後一生，我誕生於釋迦族中。我具足美貌、財富，以及名聲與戒德。",
+        "pali": "Deva-manussakaṁ yoniṁ,anubhotvā asaṅkhiyaṁ. Sukha-dukkhenubhotvāhaṁ,devesu mānusesu ca. Pacchime bhave sampatte,ajāyiṁ sākiye kule. Rūpavatī bhogavatī,yasasīlavatī tato.",
+        "backgroundImage": "/images/epilogue-recognition.png",
+        "nextScene": "c10-recognized-supporter"
+      },
+      {
+        "id": "c10-recognized-supporter",
+        "type": "narration",
+        "title": "今生相认",
+        "text": "我色身圓滿，在家族中備受尊崇。利養、名聲與敬奉，以及世間法的匯聚，都未使我心中生起痛苦；我安住於無所畏懼之中。這確是世尊當時在國王后宮中所說：在剎帝利的首府，英雄認出了那位扶持者。自此，無論榮華或困苦，我始終與他同行，守護由他宣說的善法。",
+        "pali": "Sabbaṅgasampadā homi,kulesu abhisakkatā. Lābhaṁ silokaṁ sakkāraṁ,lokadhammasamāgamaṁ; Cittañca dukkhitaṁ natthi,vasāmi akutobhayā. Vuttañhetaṁ bhagavatā,‘rañño antepure tadā; Khattiyānaṁ pure vīra,upakārañca niddisi.",
+        "backgroundImage": "/images/epilogue-recognition.png",
+        "nextScene": "c10-final-prostration"
+      },
+      {
+        "id": "c10-final-prostration",
+        "type": "dialogue",
+        "title": "稽首告别",
+        "speaker": "耶输陀罗长老尼",
+        "text": "為大仙之福德，奉獻自身之女子，將獲得伴侶圓滿，以及無為涅槃處。過去已經盡無餘，現在與未來亦如是。我之一切業已盡。稽首頂禮具眼尊。",
+        "pali": "Yā dadāti sakattānaṁ,puññatthāya mahesino; Sahāya-sampadā honti,nibbāna-padam asaṅkhataṁ. Parikkhīṇaṁ atītañca,paccuppannaṁ anāgataṁ; Sabbakammaṁ mamaṁ khīṇaṁ,pāde vandāmi cakkhuma.",
+        "backgroundImage": "/images/epilogue-cave-farewell.png",
+        "nextScene": "c10-final-ending"
+      },
+      {
+        "id": "c10-final-ending",
+        "type": "ending",
+        "backgroundImage": "/images/epilogue-cave-farewell.png",
+        "ending": {
+          "kind": "finalLotus",
+          "lotusImage": "/images/chapter-9-rainbow-lotus.png",
+          "dispersalImage": "/images/epilogue-petal-dispersal.png",
+          "finalImage": "/images/epilogue-final-lotus.png",
+          "title": "因缘已尽，光明归寂",
+          "text": "她已将无量劫的因缘讲尽，也已将这一生的修行圆满。如灯油燃尽，光明归于寂静。",
+          "homeLabel": "返回首页",
+          "chaptersLabel": "返回章节",
+          "replayLabel": "重温尾声"
+        },
+        "nextScene": null
+      }
+    ]
+  }
+]
